@@ -5,9 +5,9 @@ from google.cloud import dlp_v2
 from google.cloud import bigquery
 
 # ENV CONFIG
-PROJECT_ID = "pii-goldset-9023"
-BQ_DATASET = "dlp_masked_dataset"
-BQ_TABLE = "pii_audit"
+PROJECT_ID = "project-id"
+BQ_DATASET = "bigquery-dataset-id"
+BQ_TABLE = "bigquery-table-id"
 
 
 INSPECT_TEMPLATE_ID = "inspect-template"
