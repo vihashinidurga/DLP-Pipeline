@@ -1,8 +1,8 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from google.cloud import storage
 
-PROJECT_ID = "pii-goldset-9023"
-BUCKET_NAME = "pii-chunk-raw"
+PROJECT_ID = "project-id"
+BUCKET_NAME = "bucket-name"
 FILE_PATH = "sample.txt"
 GCS_PREFIX = "chunks/"
 REGION = "us-central1"
